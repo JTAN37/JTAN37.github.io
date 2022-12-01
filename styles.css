@@ -1,0 +1,159 @@
+body {
+  background-image: url(images/cloud_house.jpg);
+  background-size: 100%;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+hr {
+  width: 10%;
+}
+
+img {
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+/* General classes */
+
+.center-card {
+  text-align: center;
+  background-color: black;
+  margin: 0 60px;
+}
+
+
+/* Navigation Bar */
+.top-nav {
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Landing Page */
+.intro-title {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.intro-bar {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  padding-left: 30px;
+}
+
+.project-intro {
+  font-size: 30px;
+  float: left;
+  display: inline;
+}
+
+
+
+/* Bio Page */
+
+.about-photo {
+  height: 370px;
+  width: 400px;
+  float: left;
+  margin: 10px 20px 0 20px;
+  border: 1px solid white;
+}
+
+.about-me {
+  font-size: 24px;
+  text-align: left;
+  padding: 10px;
+}
+
+.contact-info {
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+
+/* Projects */
+.proj-img {
+  height: 400px;
+  width: 600px;
+}
+
+.proj-landing-img {
+  height: 200px;
+  width: 300px;
+}
+
+.proj-landing-img:hover {
+  border: 3px solid white;
+}
+
+.proj-img:hover {
+  border: 3px solid white;
+}
+
+.proj-title {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.proj-card {
+  display: inline-block;
+  margin: 10px;
+}
+
+.proj-info {
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.proj-desc-img {
+  height: 400px;
+  width: 600px;
+  float: left;
+  display: inline-block;
+  margin: 20px;
+}
+
+.proj-text {
+  display: inline;
+  font-size: 24px;
+}
+
+.project-column {
+  display: inline;
+}
